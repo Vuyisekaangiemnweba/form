@@ -1,3 +1,101 @@
+{ box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .gradient-custom-2 {
     /* fallback for old browsers */
     background: #fccb90;
@@ -20,3 +118,33 @@
     border-bottom-right-radius: .3rem;
     }
     }
+
+    body
+    {
+      background: darkorchid;
+      background: linear-gradient(to right, rgb(163, 56, 13), darkorchid);
+      color: white;
+      font-family: TrebuchetMS, Verdana;
+      //text-shadow: 2px 2px purple;
+    }
+    
+    #container
+    {
+      border: 2px dotted white;
+      background-color:orchid;
+      margin: 20px;
+      padding: 10px;
+    }
+    
+    #fortune
+    {
+      border: 2px solid white;
+      background-color: rgb(212, 59, 59);
+      padding: 20px;
+    }
+    
+    h1
+    {
+      text-shadow:3px 3px purple;
+    }
+      
